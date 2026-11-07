@@ -1,0 +1,66 @@
+{
+  "art_direction": "Papierowe Zacisze — cut-paper gouache diorama",
+  "generator": "built-in image_gen",
+  "transparent_background": true,
+  "assets": [
+    {
+      "file": "assets/images/paper/island.png",
+      "prompt": "Use case: stylized-concept. Asset type: production 2D game sprite for a cozy habit-building island game, YuChallenge. Art direction: handcrafted paper diorama painted with gouache, subtle visible paper grain, softly irregular cut-paper edges, tactile layered forms, restrained storybook charm for adults, NOT glossy 3D, NOT pixel art, no black outlines. Palette: muted sage and moss greens, warm ivory, dusty terracotta, ochre details, soft warm neutral shadows. Camera: orthographic three-quarter view from above, approximately 30 degrees downward, front of objects faces camera and slightly right, consistent mobile game scale. Soft diffuse light from upper left. No text, no watermark, no border, no UI. Isolated on a genuinely transparent background, with clean alpha edges. Object fills at least 85% of canvas; generous but small transparent margins, fully contained. Primary request: ONE uninhabited small oval island foundation viewed from above at a shallow angle, wide landscape composition. Broad open flat grassy plateau, hand-painted moss texture, low layered beige sandstone rim. A warm sand footpath curves from the lower left towards middle right, with a short branch to the upper left. Very small tufts and tiny cream wildflowers only at the outside edge. Keep the central 80% clear and level for placing separate buildings and characters. The left and right shore smoothly round into a broad horizontal oval, about 1.65 times wider than tall including its shallow cliff. NO buildings, NO trees, NO characters, NO bridge, NO water background, NO floating debris, NO tall cliffs. Single coherent isolated terrain sprite.",
+      "style_reference": null
+    },
+    {
+      "file": "assets/images/paper/cottage.png",
+      "prompt": "Use case: stylized-concept. Asset type: production 2D game sprite for a cozy habit-building island game, YuChallenge. Art direction: handcrafted paper diorama painted with gouache, subtle visible paper grain, softly irregular cut-paper edges, tactile layered forms, restrained storybook charm for adults, NOT glossy 3D, NOT pixel art, no black outlines. Palette: muted sage and moss greens, warm ivory, dusty terracotta, ochre details, soft warm neutral shadows. Camera: orthographic three-quarter view from above, approximately 30 degrees downward, front of objects faces camera and slightly right, consistent mobile game scale. Soft diffuse light from upper left. No text, no watermark, no border, no UI. Isolated on a genuinely transparent background, with clean alpha edges. Object fills at least 85% of canvas; generous but small transparent margins, fully contained. Primary request: ONE small welcoming cottage for the island's caretaker. Cream plaster walls with subtle paper texture, curved dusty terracotta tiled roof with a small chimney on the upper left, rounded dark forest-green door near the center, two small amber window panes, a little wooden front step and tiny potted plant. Asymmetric but readable silhouette, charming miniature proportions, small enough to read at 70 pixels tall. Show entire building with a tiny soft contact shadow only. NO ground tile, NO lawn, NO landscape. Square composition with building occupying 85-90%.",
+      "style_reference": null
+    },
+    {
+      "file": "assets/images/paper/library.png",
+      "prompt": "Use case: stylized-concept. Asset type: a new standalone production 2D sprite for YuChallenge. Input image is a STYLE REFERENCE ONLY, not an edit target. Match its tactile cut-paper gouache texture, softly irregular edges, warm ivory, muted sage green, dusty terracotta and ochre palette, soft upper-left diffuse lighting, charming handcrafted miniature forms. Same orthographic three-quarter camera slightly from above. Make ONE isolated object on genuinely transparent background, clean alpha. No text, no watermark, no frame, no ground tile, no scenery. Object fills about 90% of the image, fully contained. Readable silhouette at small mobile scale. Do NOT include the reference cottage. Subject: a small village LIBRARY, a wider two-storey cream plaster building, sage green curved paper-tile roof, a subtle open-book emblem carved above a central arched wooden door, two tall golden windows revealing bookshelves, one small circular attic window, little stone steps, two books beside the entrance. Distinct from a residential cottage, balanced readable frontal silhouette with only a little right side visible.",
+      "style_reference": "assets/images/paper/cottage.png"
+    },
+    {
+      "file": "assets/images/paper/tree.png",
+      "prompt": "Use case: stylized-concept. Asset type: a new standalone production 2D sprite for YuChallenge. Input image is a STYLE REFERENCE ONLY, not an edit target. Match its tactile cut-paper gouache texture, softly irregular edges, warm ivory, muted sage green, dusty terracotta and ochre palette, soft upper-left diffuse lighting, charming handcrafted miniature forms. Same orthographic three-quarter camera slightly from above. Make ONE isolated object on genuinely transparent background, clean alpha. No text, no watermark, no frame, no ground tile, no scenery. Object fills about 90% of the image, fully contained. Readable silhouette at small mobile scale. Do NOT include the reference cottage. Subject: ONE beautiful rounded deciduous tree, a small warm wood trunk supporting layered irregular sage and olive-green paper foliage, three main puffy overlapping masses with delicate gouache grain, sparse ochre leaf accents. A tiny attached contact shadow. Tree only, no pots, no flowers, no ground, no other objects. The canopy should be broad, softly asymmetrical, distinctly hand-cut paper, no individual finely detailed leaves.",
+      "style_reference": "assets/images/paper/cottage.png"
+    },
+    {
+      "file": "assets/images/paper/yu.png",
+      "prompt": "Use case: stylized-concept. Asset type: a new standalone production 2D sprite for YuChallenge. Input image is a STYLE REFERENCE ONLY, not an edit target. Match its tactile cut-paper gouache texture, softly irregular edges, warm ivory, muted sage green, dusty terracotta and ochre palette, soft upper-left diffuse lighting, charming handcrafted miniature forms. Same orthographic three-quarter camera slightly from above. Make ONE isolated object on genuinely transparent background, clean alpha. No text, no watermark, no frame, no ground tile, no scenery. Object fills about 90% of the image, fully contained. Readable silhouette at small mobile scale. Do NOT include the reference cottage. Subject: Yu, ONE small friendly original island caretaker creature. Full body front-facing idle pose, soft pear-shaped warm cream body, a small fresh sage-green two-leaf sprout on top of the head, tiny dark round eyes and a simple subtle smile, dusty peach cheeks, two short arms and two little rounded feet, a small muted terracotta triangular neckerchief. No hat, no tools, no backpack. Tactile paper-gouache look consistent with the reference, NOT plastic 3D. Entire figure occupies 85% of canvas height and 65% width. Affectionate, quiet expression; clearly readable at 40 pixels tall. Single pose, no turnaround sheet.",
+      "style_reference": "assets/images/paper/cottage.png"
+    },
+    {
+      "file": "assets/images/paper/workshop.png",
+      "prompt": "Use case: stylized-concept. Asset type: a new standalone production 2D sprite for YuChallenge. Input image is a STYLE REFERENCE ONLY, not an edit target. Match the reference's tactile layered cut-paper gouache texture, softly irregular edges, warm ivory, muted sage green, dusty terracotta and ochre palette, soft upper-left diffuse lighting. Same orthographic three-quarter camera slightly from above. ONE isolated coherent object on genuinely transparent background, clean alpha. No text, letters, numbers, watermark, frame, UI. Entire object fully visible and fills about 90% of canvas. No unrelated scenery. Readable at small mobile scale. Do not duplicate the reference house. Subject: a compact village craft WORKSHOP, a low wide cream plaster and honey-wood building with a curved ochre-brown tiled roof, large sage green double doors, a small round amber side window, a simple workbench under a short awning, 3 stacked logs and a modest wooden pull-up bar immediately beside it. Tiny carpentry tool silhouettes on wall. One connected composition, no surrounding lawn or ground tile.",
+      "style_reference": "assets/images/paper/cottage.png"
+    },
+    {
+      "file": "assets/images/paper/garden.png",
+      "prompt": "Use case: stylized-concept. Asset type: a new standalone production 2D sprite for YuChallenge. Input image is a STYLE REFERENCE ONLY, not an edit target. Match the reference's tactile layered cut-paper gouache texture, softly irregular edges, warm ivory, muted sage green, dusty terracotta and ochre palette, soft upper-left diffuse lighting. Same orthographic three-quarter camera slightly from above. ONE isolated coherent object on genuinely transparent background, clean alpha. No text, letters, numbers, watermark, frame, UI. Entire object fully visible and fills about 90% of canvas. No unrelated scenery. Readable at small mobile scale. Do not duplicate the reference house. Subject: a miniature kitchen GARDEN plot. Three short raised wooden beds full of sage-green leafy vegetables, a few carrots and tiny yellow daisies. A small cream picket fence around three sides with an open front entrance, a terracotta watering can at one corner. Low wide composition viewed from above, approximately 1.6 times wider than tall. No buildings, no character, no background landscape. Isolated whole plot with compact attached soil only.",
+      "style_reference": "assets/images/paper/cottage.png"
+    },
+    {
+      "file": "assets/images/paper/bridge.png",
+      "prompt": "Use case: stylized-concept. Asset type: a new standalone production 2D sprite for YuChallenge. Input image is a STYLE REFERENCE ONLY, not an edit target. Match the reference's tactile layered cut-paper gouache texture, softly irregular edges, warm ivory, muted sage green, dusty terracotta and ochre palette, soft upper-left diffuse lighting. Same orthographic three-quarter camera slightly from above. ONE isolated coherent object on genuinely transparent background, clean alpha. No text, letters, numbers, watermark, frame, UI. Entire object fully visible and fills about 90% of canvas. No unrelated scenery. Readable at small mobile scale. Do not duplicate the reference house. Subject: a short wooden footbridge seen from above in the same game view. HORIZONTAL orientation, left-to-right traversal, deck extending from left edge to right edge with shallow perspective and two light rope rails, warm honey-colored individual wooden planks and 4 squat wooden posts. Horizontal wide silhouette 3 times wider than tall. No island, no water, no ground, no landscape, no cottage. Entire bridge isolated, all posts and both ends visible.",
+      "style_reference": "assets/images/paper/cottage.png"
+    },
+    {
+      "file": "assets/images/paper/lighthouse.png",
+      "prompt": "Use case: stylized-concept. Asset type: a new standalone production 2D sprite for YuChallenge. Input image is a STYLE REFERENCE ONLY, not an edit target. Match the reference's tactile layered cut-paper gouache texture, softly irregular edges, warm ivory, muted sage green, dusty terracotta and ochre palette, soft upper-left diffuse lighting. Same orthographic three-quarter camera slightly from above. ONE isolated coherent object on genuinely transparent background, clean alpha. No text, letters, numbers, watermark, frame, UI. Entire object fully visible and fills about 90% of canvas. No unrelated scenery. Readable at small mobile scale. Do not duplicate the reference house. Subject: one tiny rocky coastal islet with an old lighthouse. A small rounded oval sandstone rock base capped with moss and a few grasses. Short ivory lighthouse with one dusty terracotta stripe, sage conical roof, a small amber lantern room at its top, a dark rounded door. A tiny shrub beside the tower. One compact connected object, full islet and full lighthouse visible, no surrounding water, no fog. The design should clearly belong to the same paper village as the reference.",
+      "style_reference": "assets/images/paper/cottage.png"
+    }
+  ],
+  "typography": {
+    "headings": "Fraunces",
+    "source": "https://github.com/google/fonts/tree/main/ofl/fraunces",
+    "license": "SIL Open Font License 1.1",
+    "license_file": "assets/fonts/OFL-Fraunces.txt"
+  },
+  "palette": {
+    "paper": "#FCF7ED",
+    "ink": "#2C4137",
+    "forest": "#3D6551",
+    "terracotta": "#AC694E",
+    "spark": "#E8B75A",
+    "sea": "#DDECE7"
+  }
+}

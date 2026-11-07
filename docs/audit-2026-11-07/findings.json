@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-07",
+  "app_code_modified": false,
+  "baseline_tests_passed": 24,
+  "diagnostic_cases_failed": 7,
+  "findings": [
+    {
+      "id": "A1",
+      "priority": "P1",
+      "title": "Cichy błąd zapisu i niespójne saldo",
+      "files": [
+        "lib/model.dart:238-251",
+        "lib/model.dart:370-381",
+        "lib/data/sqlite_store.dart:123-157"
+      ],
+      "evidence": "Odrzucony zapis wpisu: saldo 33 przed restartem i 30 po restarcie; flush kończy się bez błędu. Odrzucony zapis planu i zapisany zakup mostu: saldo 2 przed restartem i -10 po restarcie.",
+      "recommendation": "Zapisywać powiązane operacje w transakcji, propagować błędy do interfejsu i blokować zakupy oparte na niezapisanych nagrodach; dodać ponowienie i odtwarzanie stanu."
+    },
+    {
+      "id": "A2",
+      "priority": "P2",
+      "title": "Cel ułamkowy nie kończy się po właściwej liczbie kroków",
+      "files": [
+        "lib/model.dart:27-28",
+        "lib/model.dart:172-176",
+        "lib/model.dart:230-255"
+      ],
+      "evidence": "Dziesięć kroków po 0,1 dla celu 1 daje 0.9999999999999999; interfejs pokazuje 1.0 / 1, ale done=false i traces=0 przy 12 przyznanych iskrach.",
+      "recommendation": "Przechowywać ilości w jednostkach całkowitych o ustalonej precyzji albo stosować jednolitą normalizację i tolerancję we wszystkich warunkach ukończenia."
+    },
+    {
+      "id": "A3",
+      "priority": "P2",
+      "title": "Granica dnia przesuwa się przy zmianie czasu",
+      "files": [
+        "lib/data/day.dart:12-14"
+      ],
+      "evidence": "Europe/Warsaw: 29.03.2026 o 04:30 trafia do 28.03; 25.10.2026 o 03:30 trafia do 25.10 zamiast 24.10.",
+      "recommendation": "Wyznaczać dzień przez lokalną godzinę i datę kalendarzową, a nie odejmowanie czterech godzin rzeczywistego czasu; dodać testy obu zmian czasu."
+    },
+    {
+      "id": "A4",
+      "priority": "P2",
+      "title": "Ukończone zadania zajmują wszystkie aktywne miejsca",
+      "files": [
+        "lib/model.dart:133-135",
+        "lib/model.dart:160-165",
+        "lib/ui/goals_screen.dart:72-88"
+      ],
+      "evidence": "Po ukończeniu trzech jednorazowych zadań następnego dnia: 0 widocznych celów, 3 aktywne definicje, canAddGoal=false.",
+      "recommendation": "Oddzielić cele ukończone od aktywnych, zwolnić limit i pokazać ukończone zadania w historii bez usuwania ich wpisów."
+    },
+    {
+      "id": "A5",
+      "priority": "P2",
+      "title": "Odkryta latarnia wychodzi poza kadr telefonu",
+      "files": [
+        "lib/game/island_game.dart:139-147",
+        "lib/game/island_components.dart:293-300"
+      ],
+      "evidence": "Przy szerokości 393 punktów, po odblokowaniu mostu i w normalnym kadrze, środek wysepki ma x=410,86, a prawa krawędź x=455,52.",
+      "recommendation": "Dopasować kamerę do odblokowanego obszaru albo dodać czytelne przesuwanie widoku; sprawdzić powrót kamery po animacji i ponowne otwarcie aplikacji."
+    }
+  ]
+}
